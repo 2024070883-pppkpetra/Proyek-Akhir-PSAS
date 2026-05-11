@@ -16,6 +16,70 @@
                 <div class="menu"><a href="daftar.html">Apply</a></div>
                 <div class="menu"><a href="about.html">About Us</a></div>
             </div>
+            <div class="container my-4">
+                <h1 class="text-warning text-center">Join our news!</h1>
+                <p class="text-center text-white">Sign up for crypto news and guides.</p>
+            </div>
+            <div class="container mb-4">
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <form class="p-4 bg-dark text-white rounded border">
+                            <div class="mb-3">
+                                <label class="form-label">Full Name</label>
+                                <input type="text" class="form-control bg-dark text-white border-secondary" id="name" placeholder="Your name">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Email</label>
+                                <input type="email" class="form-control bg-dark text-white border-secondary" id="email" placeholder="you@email.com">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Experience Level</label>
+                                <select class="form-select bg-dark text-white border-secondary" id="exp">
+                                    <option selected disabled>Select</option>
+                                    <option value="beginner">Beginner</option>
+                                    <option value="intermediate">Intermediate</option>
+                                    <option value="advanced">Advanced</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Interest</label>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="interest" value="trading" id="r1">
+                                    <label class="form-check-label" for="r1">Trading</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="interest" value="blockchain" id="r2">
+                                    <label class="form-check-label" for="r2">Blockchain</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="interest" value="defi" id="r3">
+                                    <label class="form-check-label" for="r3">DeFi</label>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Topics (select all)</label>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="news" id="c1">
+                                    <label class="form-check-label" for="c1">Market News</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="guides" id="c2">
+                                    <label class="form-check-label" for="c2">Beginner Guides</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="security" id="c3">
+                                    <label class="form-check-label" for="c3">Security Tips</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="alerts" id="c4">
+                                    <label class="form-check-label" for="c4">Price Alerts</label>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-warning w-100">Register</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
             <footer class="bg-dark text-white text-center py-3 mt-4">
                 <p class="mb-0">@ Copyright Denzel Hugo Suprapto 2026</p>
             </footer>
