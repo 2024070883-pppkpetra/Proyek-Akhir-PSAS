@@ -2,12 +2,23 @@
     background-color: #002b36;
     text-align:center;
     padding:10px;
+    border-bottom: 1px solid #586e75;
     }
 .menu {
     display:inline-block;
     padding:10px 20px;
-    color:white
-    }
+}
 .menu:hover {
-    background-color: #657b83;
-    }
+  background-color: #657b83;
+}
+.menu a {
+  color: #93a1a1;
+  font-weight: 500;
+}
+.menu a:hover {
+  color: #eee;
+}
+body {
+  background-color: #002b36;
+  color: #eee;
+}
